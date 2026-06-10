@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+/* Increase global base font size for better readability */
+html {
+  font-size: 17px; /* default was 16px */
+}
+@media (min-width: 640px) { /* sm */
+  html { font-size: 18px; }
+}
+@media (min-width: 1024px) { /* lg */
+  html { font-size: 18.5px; }
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  min-height: 100vh;
+  /* Deep green background with soft golden glow */
+  background: radial-gradient(900px 500px at 70% 20%, rgba(223,193,108,0.15), transparent 60%),
+              radial-gradient(700px 400px at 20% 80%, rgba(223,193,108,0.10), transparent 60%),
+              linear-gradient(160deg, #162515 0%, #1f2f1e 40%, #243722 70%, #283c26 100%);
+  display: block;
+}
+
+/* Simple marquee animation for the top info bar */
+.marquee-inline {
+  display: inline-block;
+  min-width: 200%; /* ensure wide track for smooth scroll */
+  animation: marqueeX 50s linear infinite;
+}
+
+@keyframes marqueeX {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animated-gradient-overlay {
+  background: linear-gradient(120deg,
+    rgba(59, 130, 246, 0.18), /* blue-500 */
+    rgba(14, 165, 233, 0.16), /* sky-500 */
+    rgba(99, 102, 241, 0.14)  /* indigo-500 */
+  );
+  background-size: 200% 200%;
+  animation: gradientX 14s ease-in-out infinite;
+}
+
+@keyframes gradientX {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 50% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Panel style */
+.glass-box {
+  /* no longer used; keeping minimal for compatibility */
+  background: rgba(255, 255, 255, 0.30);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+}
