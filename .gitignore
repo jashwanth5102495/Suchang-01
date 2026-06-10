@@ -12,10 +12,10 @@ dist
 dist-ssr
 *.local
 
-# Large media files
-public/*.mp4
-public/*.png
-public/*.jpeg
+# Large media files (commented out to include in git)
+# public/*.mp4
+# public/*.png
+# public/*.jpeg
 
 # Editor directories and files
 .vscode/*
