@@ -444,6 +444,19 @@ export const PRODUCTS = [
       '(iv) Water per cent. by weight QS',
       '(v) Total (per cent.) 100'
     ] 
+  },
+  { 
+    brand: 'GROW STAR', 
+    specification: 'Glycine 5% (Powder)', 
+    category: 'Protein Hydrolysates and Amino Acids',
+    crops: ['Brinjal'], 
+    dosage: ['Three foliar applications at 1000g/ha'], 
+    gazette: '13th August, 2025 S.O. 3741(E)', 
+    composition: [
+      '(i) Glycine per cent. by weight, minimum 5', 
+      '(ii) Dextrin per cent. by weight, maximum 95',
+      '(iii) Total (per cent.) 100'
+    ] 
   }
 ];
 
