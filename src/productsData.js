@@ -299,14 +299,23 @@ export const PRODUCTS = [
   },
   { 
     brand: 'SUPER CHILLY', 
-    specification: 'Glycine 5% (Powder)', 
+    specification: 'Protein hydrolysate 54% (Animal source) (Liquid)', 
     category: 'Protein Hydrolysates and Amino Acids',
-    crops: ['Brinjal'], 
-    dosage: ['Three foliar applications at 1000g/ha'], 
+    crops: ['Paddy', 'Grapes', 'Soybean', 'Potato', 'Cucumber', 'Chilli', 'Cotton', 'Tomato'], 
+    dosage: [
+      'Paddy One foliar application at 1000 ml/ha',
+      'Grapes Three foliar applications at 1000 ml/ha',
+      'Soybean Three foliar applications at 1000 ml/ha',
+      'Potato Three foliar applications at 1000 ml/ha',
+      'Cucumber Three foliar applications at 1000 ml/ha',
+      'Chilli Four foliar applications at 1000 ml/ha',
+      'Cotton One foliar application at 625 ml/ha',
+      'Tomato Three foliar applications at 750 ml/ha'
+    ], 
     gazette: '13th August, 2025 S.O. 3741(E)', 
     composition: [
-      '(i) Glycine per cent. by weight, minimum 5', 
-      '(ii) Dextrin per cent. by weight, maximum 95',
+      '(i) Protein hydrolysate derived from animal source (Gallus gallus domesticus, Sadina pilchardus, Bos taurus) through acid (hydrochloric acid and sulphuric acid) hydrolysis per cent. by weight, minimum 54', 
+      '(ii) Water per cent. by weight 46',
       '(iii) Total (per cent.) 100'
     ] 
   },
