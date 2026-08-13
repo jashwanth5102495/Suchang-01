@@ -588,8 +588,12 @@ export const PRODUCTS = [
     category: 'Seaweed Extract',
     crops: ['Cucumber'], 
     dosage: ['One foliar application at 2 ml/l.'], 
-    gazette: '', 
-    composition: [] 
+    gazette: '12th September, 2024 S.O. 3922(E).', 
+    composition: [
+      '(i) Total carbohydrate per cent. by weight, minimum 7.5',
+      '(ii) D-Galactose – 4-O- Sulphate per cent. by weight, minimum 6.0',
+      '(iii) pH (minimum) (1:2 aqueous solution) 3.0 – 5.0'
+    ] 
   },
   { 
     brand: 'FRIEND', 
